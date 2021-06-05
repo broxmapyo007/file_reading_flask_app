@@ -9,7 +9,7 @@
 <h2>file data:{{fname}}</h2>
 <br>
 {%for tx in file_c%}
-{{tx}}<br>
+{{tx|safe }}<br>
 {%endfor%}
 </p><br>
 
